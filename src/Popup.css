@@ -1,0 +1,26 @@
+.popup{
+    position: absolute;
+    background-color: hsla(166, 43%, 0%, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.popup h2 {
+    padding: 10px;
+    width: 95%;
+    background: whitesmoke;
+    border-radius: 10px;
+    color: green;
+}
+button{
+    width: 30px;
+    height: 30px;
+    color: red;
+    background-color:white ;
+    border: none ;
+    border-radius: 10%;
+    cursor: pointer;
+}
